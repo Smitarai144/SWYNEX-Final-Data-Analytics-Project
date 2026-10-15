@@ -15,21 +15,25 @@ Tasks Completed
 
 Task 1: Data Cleaning and Preparation
 
-Used Python and Pandas to clean and prepare the dataset for analysis.
+Cleaned and prepared the retail dataset using Python and Pandas.
+
+"View Task 1 Repository" (https://github.com/Smitarai144/SWYNEX-Data-Cleaning-Preparation)
 
 Task 2: Exploratory Data Analysis (EDA)
 
-Used Python, Pandas, and Matplotlib to explore monthly revenue, transactions, top products, and country-wise sales.
+Analyzed sales trends, monthly revenue, transactions, top products, and country-wise performance using Python, Pandas, and Matplotlib.
+
+"View Task 2 Repository" (https://github.com/Smitarai144/SWYNEX-Exploratory-Data-Analysis)
 
 Task 3: Interactive Sales Dashboard
 
 Created an interactive sales dashboard using Microsoft Power BI.
 
-"View the SWYNEX Interactive Dashboard repository" (https://github.com/Smitarai144/SWYNEX-Interactive-Dashboard/tree/main)
+"View Task 3 Repository" (https://github.com/Smitarai144/SWYNEX-Interactive-Dashboard/tree/main)
 
 Task 4: Final Data Analytics Project
 
-This repository organizes the overall project workflow, analysis, visualizations, dashboard reference, and business findings.
+Combined the project workflow, analysis, dashboard reference, and business findings into a final case study.
 
 Tools and Technologies
 
