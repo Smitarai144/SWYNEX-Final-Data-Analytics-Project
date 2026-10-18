@@ -76,17 +76,6 @@ Key Analysis Areas
 - Country-wise revenue
 - Sales performance insights
 
-Dataset Information
-
-The project uses a retail transactions dataset containing invoice details, product descriptions, quantities, unit prices, customer IDs, and country information.
-
-Data Cleaning Process
-
-- Checked for duplicate records and missing values.
-- Reviewed data quality issues in customer and product information.
-- Examined invalid quantities and unit prices.
-- Prepared the dataset for exploratory analysis.
-
 Key Business Insights
 
 1. The UK Dominates Sales
