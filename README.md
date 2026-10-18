@@ -11,6 +11,31 @@ Project Objectives
 - Identify top-performing products and countries.
 - Present insights through an interactive Power BI dashboard.
 
+Dataset Information
+
+- Dataset Name: Online Retail Dataset
+- Dataset Type: Retail transaction data
+- Key Columns: Invoice Number, Stock Code, Description, Quantity, Invoice Date, Unit Price, Customer ID, and Country.
+- Original Dataset Size: 541,909 rows.
+- Cleaned Dataset Size: 401,564 rows.
+- Data Source: The dataset used in this project was provided as an Online Retail dataset for analysis.
+
+Data Cleaning Process
+
+The dataset was cleaned and prepared using Python and Pandas.
+
+The following steps were performed:
+
+1. Duplicate Removal: Removed 5,268 duplicate records.
+2. Missing Descriptions: Replaced 1,454 missing Description values with "Unknown".
+3. Missing Customer IDs: Removed rows with missing CustomerID values.
+4. Zero Unit Prices: Removed 40 records with zero UnitPrice values after filtering missing CustomerIDs.
+5. Negative Quantities: Retained negative quantities because they may represent product returns or cancelled transactions.
+6. Data Type Validation: Checked the data types of all columns.
+7. Data Consistency Checks: Checked Country and StockCode values for missing or obvious formatting inconsistencies.
+
+After cleaning, the dataset contained 401,564 rows and was ready for exploratory data analysis and dashboard development.
+
 Tasks Completed
 
 Task 1: Data Cleaning and Preparation
@@ -50,6 +75,47 @@ Key Analysis Areas
 - Top 10 products by revenue
 - Country-wise revenue
 - Sales performance insights
+
+Dataset Information
+
+The project uses a retail transactions dataset containing invoice details, product descriptions, quantities, unit prices, customer IDs, and country information.
+
+Data Cleaning Process
+
+- Checked for duplicate records and missing values.
+- Reviewed data quality issues in customer and product information.
+- Examined invalid quantities and unit prices.
+- Prepared the dataset for exploratory analysis.
+
+Key Business Insights
+
+1. The UK Dominates Sales
+
+The United Kingdom accounted for approximately 81.5% of calculated revenue, making it the largest market in the analysis.
+
+2. November 2011 Had the Highest Transaction Activity
+
+November 2011 recorded approximately 64,218 transaction records, the highest monthly activity in the analyzed period.
+
+3. November 2011 Generated the Highest Monthly Revenue
+
+Calculated revenue in November 2011 was approximately £1.13 million.
+
+4. Negative Quantities May Indicate Returns or Cancellations
+
+The dataset contained 8,872 records with negative quantities, with a combined quantity of approximately -273,035 units. These records may represent returns, cancellations, or adjustments.
+
+5. Extreme Values Require Further Investigation
+
+Quantity values ranged from approximately -80,995 to 80,995, while unit prices ranged from £0.001 to £38,970. These unusual values should be investigated before making business decisions based on them.
+
+Business Recommendations
+
+- Monitor sales performance in the UK and other markets.
+- Study seasonal sales patterns, particularly the November peak.
+- Investigate negative-quantity records to understand returns and cancellations.
+- Validate extreme quantities and prices before using them in business reports.
+- Use the Power BI dashboard to monitor revenue, transactions, products, and country performance.
 
 Conclusion
 
